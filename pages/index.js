@@ -13,7 +13,7 @@ const Home = () => {
     <div className="container" style={{ padding: "50px 0 100px 0" }}>
       {!session ? (
         <Auth
-        providers={["google","discord",'twitter']}
+        providers={[]} //"google","discord",'twitter' need to set up
           supabaseClient={supabase}
           appearance={{ theme: ThemeSupa }}
           theme="dark"

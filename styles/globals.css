@@ -431,3 +431,60 @@ button.primary,
   margin-bottom: 10px;
   text-decoration: none;
 }
+
+.workout-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.workout-card {
+  width: 100%;
+  padding: 10px;
+  /* background: rgb(46, 45, 45); */
+  box-sizing: border-box;
+  border-radius: 6px;
+  position: relative;
+}
+
+.workoutButton {
+  width: 30%;
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  /* color:#2a2a2a;
+  background-color: #666; */
+}
+
+.button-grid{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+
+}
+
+a {
+  color: black;
+}
+/* .buttonLink a{
+  color: rgb(44, 42, 42)y;
+} */
+
+.inputGrid{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 10%;
+}
+
+.inputCss{
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.submitGrid{
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+  padding-right: 5%;
+}
